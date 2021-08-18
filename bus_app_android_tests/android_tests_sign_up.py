@@ -20,14 +20,6 @@ desired_caps['appActivity' ]=".activities.splash.SplashActivity"
 print(desired_caps)
 logging.error('raised an error')
 
-#pytest -o log_cli=true prints logs out in tests
-#set up config file
-#put first test into test file
-#put logger info in test
-#show we can fail if elemets arent there
-#add 2nd test
-#
-
 def test_1():
     driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
 
